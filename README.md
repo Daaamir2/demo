@@ -1,5 +1,5 @@
-#demo for Git
+# demo for Git
 
 Tools:
-*Maven
-*JUnit
+* Maven
+* JUnit
