@@ -8,6 +8,12 @@ class HelpServiceTest {
 
     @Test
     void initials() {
+        {
+            HelpService service = new HelpService();
+            String actual = service.initials("Vasiliy Petrov");
+            String expected = "VP";
 
+            assertEquals(expected, actual);
+        }
     }
 }
